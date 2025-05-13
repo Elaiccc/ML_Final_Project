@@ -14,3 +14,5 @@ ROC-AUC Evaluation: Includes advanced performance evaluation using precision, re
 Fake News Generator: Provides a standalone fake news generator using OpenAI API, allowing realistic fake articles to be created from custom prompts.
 
 Deployment Ready: Includes scripts for saving and loading models, and a simple command-line interface for real-time fake news prediction.
+
+Team member: Ziyi Liu, Yide Fang, Hanzhe Zhou
