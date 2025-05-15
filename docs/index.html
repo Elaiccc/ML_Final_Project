@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fake News Detection & Generation Pipeline</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 1rem; line-height: 1.6; }
+    header, section { margin-bottom: 2rem; }
+    h1, h2 { color: #333; }
+    a.button { display: inline-block; margin: 0.5rem 0; padding: 0.5rem 1rem; background: #0366d6; color: white; text-decoration: none; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fake News Detector & Generator</h1>
+    <p>An end‑to‑end pipeline for generating synthetic fake news and detecting it with ML models.</p>
+  </header>
+
+  <section id="overview">
+    <h2>Problem Overview</h2>
+    <p>Automatically generate high‑quality fake news using GPT, then train a classifier to distinguish real vs. fake articles—important for misinformation research and detection.</p>
+  </section>
+
+  <section id="data">
+    <h2>Data</h2>
+    <p>• Real news corpus of X articles<br>
+       • 15,000 synthetic fake samples via OpenAI API<br>
+       • TF‑IDF vectorization on text</p>
+  </section>
+
+  <section id="model">
+    <h2>Model</h2>
+    <p>• Logistic Regression on TF‑IDF features<br>
+       • Hyperparameters tuned via grid search<br>
+       • Achieves ROC‑AUC of 0.99 on held‑out test set</p>
+  </section>
+
+  <section id="results">
+    <h2>Results</h2>
+    <p>Precision: 0.98  |  Recall: 0.97  |  F1‑Score: 0.975  |  ROC‑AUC: 0.99</p>
+  </section>
+
+  <section id="resources">
+    <h2>Resources</h2>
+    <ul>
+      <li>
+        <a class="button"
+           href="https://github.com/Elaiccc/ML_Final_Project/blob/main/FakeNewsGenerator/notebook.ipynb"
+           target="_blank">
+          Jupyter Notebook
+        </a>
+      </li>
+      <li>
+        <a class="button"
+           href="https://youtu.be/YourVideoID"
+           target="_blank">
+          Video Presentation
+        </a>
+      </li>
+      <li>
+        <a class="button"
+           href="https://github.com/Elaiccc/ML_Final_Project/blob/main/executive_report.pdf"
+           target="_blank">
+          Executive Report (PDF)
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Ziyi Liu · Yide Fang · Hanzhe Zhou</p>
+  </footer>
+
+</body>
+</html>
